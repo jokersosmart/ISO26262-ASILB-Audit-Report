@@ -1,0 +1,25 @@
+{
+  "dfa_total": 170,
+  "dfa_unique": 15,
+  "fmeda_total": 597484,
+  "fmeda_unique": 1669,
+  "common_patterns": 14,
+  "dfa_only": 1,
+  "fmeda_only": 1655,
+  "common_formulas": [
+    "=SUM(D_ROW:D_ROW)",
+    "=SUM(B_ROW:B_ROW)",
+    "=SUM(F_ROW:F_ROW)",
+    "=IF(B_ROW<45, 5, IF(B_ROW<70, 2, IF(B_ROW<120, 1, 0.5)))",
+    "=B_ROW*H_ROW",
+    "=F_ROW*(B_ROW+1)+G_ROW",
+    "=SUM(E_ROW:E_ROW)",
+    "=SUM(C_ROW:C_ROW)",
+    "=E_ROW+E_ROW-E_ROW",
+    "=(F_ROW+G_ROW)",
+    "=SUM(H_ROW:H_ROW)",
+    "=C_ROW*F_ROW",
+    "=SUM(G_ROW:G_ROW)",
+    "=C_ROW*H_ROW"
+  ]
+}
